@@ -17,7 +17,7 @@ const Card = ({src , title , description , id ,showbtn=true }) => {
 <>
 
  
-   <div class="card  card-side bg-base-100 shadow-xl ">
+   <div class="card  card-side bg-base-100 shadow-xl d-flex justify-content-center ">
   <figure><img src={src} alt="image" className='w-48' /></figure>
   <div class="card-body">
     <h2 class="card-title">{title}</h2>

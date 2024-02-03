@@ -20,7 +20,7 @@ const Product = () => {
     }, [])
   return (
     <>
-<div className='flex flex-wrap gap-6 text-center justify-evenly w-2/4 ml-12 mt-12 mb-12'>
+<div className=' gap-6 text-center d-flex justify-content-center w-2/4 ml-12 mt-12 mb-12'>
      {data.length > 0 ? data.map((item)=>{
        return <Card key={item.id} src={item.image} title={item.title.slice(0,30)} description={item.description.slice(0,60)} id={item.id}/>
 
